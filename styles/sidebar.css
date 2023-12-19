@@ -1,0 +1,36 @@
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: rgb(255, 255, 255);
+  width: 72px;
+  padding-top: 2px;
+z-index: 200;
+
+}
+.side-link-bar{
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5px;
+}
+.side-link-bar:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.side-link-bar img{
+  height: 24px;
+  
+
+}
+.side-link-bar div{
+ 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 10px;
+  margin-top: 5px;
+
+}
